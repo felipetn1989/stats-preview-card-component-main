@@ -46,6 +46,7 @@ body {
     background-color: var(--Dark-desaturated-blue);
     border-radius: 10px;
     margin-bottom: 2em;
+    transition: all .5s;
 }
 
 img {
