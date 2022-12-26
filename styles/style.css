@@ -41,14 +41,25 @@ body {
 }
 
 .card {
-    width: 300px;
+    position: relative;
+    width: 315px;
     background-color: var(--Dark-desaturated-blue);
     border-radius: 10px;
-    overflow: hidden;
+    margin-bottom: 2em;
 }
 
 .card > img {
     width: 100%;
+    height: 30%;
+    border-radius: 10px 10px 0 0;
+}
+
+.overlay {
+    position: absolute;
+    background-color: hsla(277, 86%, 47%, 0.445);;
+    width: 100%;
+    height: 30%;
+    border-radius: 10px 10px 0 0;
 }
 
 .text,
@@ -77,17 +88,26 @@ body {
 }
 
 .text > p {
-    color: var(--Slightly-transparent-white);
+    color: var(--Slightly-transparent-white2);
+    line-height: 1.6875em;
 }
 
 .stats {
     padding: 0 0 2em 0;
 }
 
+.number {
+    font-size: 1.4375rem;
+    font-weight: 700;
+    margin-bottom: .3125em;
+}
+
 .stats > div {
     font-family: 'Lexend Deca', sans-serif;
     color: var(--Slightly-transparent-white2);
     text-transform: uppercase;
+    font-size: 0.75em;
+    margin-bottom: 2.5em;
 }
 
 .lower {
