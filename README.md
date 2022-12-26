@@ -41,6 +41,10 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
+### Things I've learned
+
+Using justify-content: flex-start to avoid que top of the page being chopped on mobile devices
+
 ## Author
 
 - Website - [Felipe Thomé](https://www.github.com/felipetn1989)
